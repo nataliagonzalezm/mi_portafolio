@@ -130,3 +130,11 @@ hr {
 .invitacion {
     color: #777777;
 }
+
+
+.carousel-indicators > li {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius:50%;
+    position: relative;
+    }
