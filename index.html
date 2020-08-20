@@ -46,7 +46,7 @@
         <div class="carousel-item active">
           <img src="assets/img/bg-hero.jpg" class="d-block w-100" alt="...">
           <div class="yo-soy text-white ">Yo soy</div>
-          <hr class="linea-titulo" color=white width="280px"> </hr>
+          <hr class="linea-titulo" color="white" width="280px"> </hr>
           <div class="Natalia text-white">Natalia</div>
         </div>
         <div class="carousel-item">
@@ -69,7 +69,7 @@
 <!--Termina Carrusel -->
 <!--Comienza texto-->
 
-<div class="container textos pt-5" id="sobremi">
+<div class="container textos pt-5 d-none d-sm-block" id="sobremi">
   <div class="row mb-5">
       <div class="primeros-textos">
         <h2 class="texto-central text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.
@@ -115,7 +115,7 @@
 <!--termina mi experiencia-->
 <!--Empieza mis ultimos trabajos-->
 
-<div class="container ultimos-trabajos" id="trabajos">
+<div class="container-fluid bg-mora ultimos-trabajos" id="trabajos">
   <div class="row mb-5 ">
    <section class="trabajos container-fluid pt-5 ">
     <h1 class="titulos-trabajos text-white text-center"> MIS ÚLTIMOS TRABAJOS </h1>
@@ -128,6 +128,7 @@
         <div class="card-body">
           <h5 class="card-title">Meet&Coffe</h5>
           <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
+       <a href="#" data-toggle="modal" data-target="#meet" class="text-black-50">Ver más</a>
         </div>
       </div>
       <div class="card">
@@ -135,6 +136,7 @@
         <div class="card-body">
           <h5 class="card-title">Iguana Page</h5>
           <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
+        <a href="#" data-toggle="modal" data-target="#iguana"class="text-black-50">Ver más</a>
         </div>
       </div>
       <div class="card">
@@ -142,6 +144,7 @@
         <div class="card-body">
           <h5 class="card-title">Suricata</h5>
           <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
+          <a href="#" data-toggle="modal" data-target="#suricata" class="text-black-50">Ver más</a>
          </div>
       </div>
     </div>
@@ -152,6 +155,7 @@
         <div class="card-body">
           <h5 class="card-title">Cuppon</h5>
           <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
+          <a href="#" data-toggle="modal" data-target="#cuppon" class="text-black-50">Ver más</a>
         </div>
       </div>
       <div class="card">
@@ -159,21 +163,150 @@
         <div class="card-body">
           <h5 class="card-title">Ricomida</h5>
           <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
+          <a href="#" data-toggle="modal" data-target="#ricomida" class="text-black-50">Ver más</a>
         </div>
       </div>
       <div class="card">
-        <img src="assets/img/dmark.png" class="card-img-top" alt="Dmark">
+        <img src="assets/img/dmark.png" class="card-img-top" alt="dmark">
         <div class="card-body">
           <h5 class="card-title">DMark</h5>
           <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
+          <a href="#" data-toggle="modal" data-target="#dmark" class="text-black-50">Ver más</a>
          </div>
       </div>
     </div>
  <!--Termina cards-->
+  <!--Comienza modal-->
   </section>
+  <div class="modal fade" id="meet" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Meet & Coffee</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/img/meet_coffee.png" class="img-fluid card-img-top my-3" alt="meet">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
 </div>
-<!--Termina ultimos trabajos-->
+<!--modal 2--> 
+<div class="modal fade" id="iguana" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Iguana Page</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/iguana_page.png" class="img-fluid card-img-to my-5" alt="iguana">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!--modal 3--> 
+<div class="modal fade" id="suricata" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Suricata</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/suricata.png" class="img-fluid card-img-to my-5" alt="suricata">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!--modal 4--> 
+<div class="modal fade" id="cuppon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cuppon</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/cuppon.png" class="img-fluid card-img-to my-5" alt="cuppon">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!--modal 4--> 
+<div class="modal fade" id="ricomida" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ricomida</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/ricomida.png" class="img-fluid card-img-to my-5" alt="ricomida">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!--modal 6--> 
+<div class="modal fade" id="dmark" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">DMark</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/dmark.png" class="img-fluid card-img-to my-5" alt="dmark">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, neque reprehenderit debitis in voluptas illum ipsa ipsam? Eos quos sed ducimus tempora ratione. Explicabo tempore laboriosam libero dignissimos quasi officiis.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!--Termina modal-->
 <!--Comienza Contacto-->
 
 <div class="container contacto" id="contacto">
@@ -185,7 +318,7 @@
 
   <div class="pregunta">
     <div class="quieres col-12 col-md-6"></div>
-       <h5 class="mb-5 font-weight-normal">¿Quieres conocer más de mí?</h5>
+       <h5 class="mb-5 font-weight-normal invitacion">¿Quieres conocer más de mí?</h5>
     </div> 
     <button type="button comenzar" class="btn btn btn-dark text-white-50 mb-5"
       data-toggle="tooltip" data-placement="bottom" title="Presiona aquí para comenzar"> Comenzar</button>    
