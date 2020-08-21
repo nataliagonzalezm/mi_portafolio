@@ -90,6 +90,12 @@ hr {
 
 }
 
+.logo-3, .logo-4{
+    display: inline-block;
+    max-width: 42%;
+
+}
+
 .logos h3{
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
@@ -138,3 +144,9 @@ hr {
     border-radius:50%;
     position: relative;
     }
+
+
+.carousel-item i {
+    width: 100px;
+    height: 100px;
+}
